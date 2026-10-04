@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML model files
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+*.ckpt
+
+# Generated / uploaded media
+uploaded_images/*
+uploaded_videos/*
+test_video/*
+
+# Datasets
+dataset/
+datasets/
+data/
+
+# Temporary files
+*.tmp
+*.temp
